@@ -158,14 +158,18 @@
 }
 
 .gradient {
-    background-image: url(../images/watch.png);
+    /* background-image: url("../images/watch.png"); */
     background-repeat: no-repeat;
     background-position: center;
     width: 1140px;
     height: 300px;
-    padding: 230px 230px;
+    /* padding: 230px 230px; */
     margin-left: 230px;
     margin-right: 230px;
-    background-image:linear-gradient(rgba(255, 166, 0, 0.473));
-   
+    background: linear-gradient(90deg, rgb(251, 145, 7) 0%, rgba(230, 227, 233, 0.272) 29%, rgb(223, 218, 211) 54%, rgba(56,38,152,0.2637429971988795) 73%) , url('../images/watch.png');
+    
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
 }
+
