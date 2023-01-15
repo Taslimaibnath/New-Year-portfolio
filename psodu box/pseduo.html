@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: blue;
+            background-color: bisque;
+            border: 7px;
+        }
+
+        .middle-person:focus {
+            color: slateblue;
+            border: 10px;
+            border-radius: 10px;
+
+        }
+
+        a:visited {
+            color: blue;
+        }
+        li:first-child{
+            color: blueviolet;
+        }
+        li:last-child{
+            color:purple;
+            background-color: lightgreen;
+        }
+        li:nth-child(2n){
+            background-color: grey;
+        }
+        li:nth-child(2n+1){
+            background-color:darkorange;
+        }
+        h3::before{
+            content: 'Hello ';
+            color: lightsalmon;
+        }
+        h3::after{
+            content: 'Bye';
+            color: darkcyan;
+        }
+        .special:after{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://web.programming-hero.com/web-7/video/web-7-6_5-1-pseudo-class-hover-class-hover-visited-focus">Visited
+        programming video </a> <br>
+    <a href="https://www.google.com/"> Google</a> <br>
+    <a href="https://www.alphr.com/whatsapp-emoji-meanings/">Emoji</a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3 class="special">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3 class="special">middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3 class="special">middle size header -6</h3>
+    <ul>
+        <li>Maria</li>
+        <li>Sadia</li>
+        <li>Alifa</li>
+        <li>Nila</li>
+        <li>Nitu</li>
+        <li>Mita</li>
+        <li>Tonni</li>
+    </ul>
+</body>
+
+</html>
