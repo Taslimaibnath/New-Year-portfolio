@@ -1,0 +1,13 @@
+.btn-cl-primary{
+    background-color: #B68C5A;
+}
+.banner{
+    background-image:url('../images/banner.png');
+    height: 400vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.banner-txt{
+    font-family: 'EB Garamond', serif;
+}
